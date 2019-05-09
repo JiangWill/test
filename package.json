@@ -10,8 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "co": "^4.6.0",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "node-fetch": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
   }
 }
